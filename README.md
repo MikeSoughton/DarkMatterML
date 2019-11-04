@@ -7,11 +7,15 @@ Repository for the code associated with the paper 'WIMPs or else? Using Machine 
 
 -----------------
 
-The paper implements a new ...
+The paper implements a new machine learning technique to distinguish between signals of Dark Matter (DM) candidates through monojet and dijet LHC searches. Events are generated through [`MadGraph`](http://madgraph.phys.ucl.ac.be/) along with [`Pythia`](https://arxiv.org/abs/0710.3820) and [`Delphes`](https://arxiv.org/abs/1307.6346). 
+
+Tensorflow etc..
 
 The paper finds ...
 
 The code does ...
+
+Prerequisities ...
 
 The code is run ...
 
