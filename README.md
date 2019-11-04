@@ -1,5 +1,5 @@
 # DarkMatterML
-Repository for the code associated with the paper 'WIMPs or else? Using Machine Learning to disentangle LHC signatures', arXiv:1910.06058 (2019).
+Repository for the code associated with the paper 'WIMPs or else? Using Machine Learning to disentangle LHC signatures', [arXiv:1910.06058](https://arxiv.org/abs/1910.06058) (2019).
 
 <!--- <div align="center"> --->
 <!--- <img src=".github/Logo_main_black.png", width="300"> --->
