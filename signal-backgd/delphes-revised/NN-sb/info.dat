@@ -1,0 +1,11 @@
+accuracy: this time i included all 3 features: pt, eta, phi
+
+axion vs Sm : 0.557(need to update), auc=0.57
+
+EFT vs Sm : 0.66(need to update), auc=0.70
+
+susy1 vs Sm : 0.59(need to update), auc=0.61
+
+susy2 vs Sm : 0.63(need to update), auc=0.67 
+
+susy3 vs Sm : 0.65(need to update), auc=0.69

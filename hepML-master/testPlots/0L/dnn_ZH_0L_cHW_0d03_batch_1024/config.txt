@@ -1,0 +1,18 @@
+
+Vars used	['ptj' 'etaj' 'phij']
+nEvalEvents	0
+nDevEvents	400000
+nTrainEvents	280000
+nTestEvents	120000
+optimizer	adam
+inputSize	3
+doRegression	False
+activation	relu
+hiddenLayers	[5.0, 64, 64, 64]
+outputSize	2
+l2Regularization	None
+dropOut	0.2
+Test train split
+epochs	100
+batch_size	500
+extra	{}

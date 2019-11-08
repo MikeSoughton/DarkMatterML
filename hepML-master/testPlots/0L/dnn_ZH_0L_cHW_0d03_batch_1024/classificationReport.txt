@@ -1,0 +1,29 @@
+Performance on test set:
+              precision    recall  f1-score   support
+
+  background       0.61      0.76      0.68     59954
+      signal       0.68      0.52      0.59     60046
+
+   micro avg       0.64      0.64      0.64    120000
+   macro avg       0.65      0.64      0.63    120000
+weighted avg       0.65      0.64      0.63    120000
+
+Area under ROC curve: 0.6898
+
+DNN Loss, Accuracy, Significance:
+[0.6366194352507591, 0.6400500014424324]
+
+Performance on train set:
+              precision    recall  f1-score   support
+
+  background       0.61      0.76      0.68    140046
+      signal       0.68      0.53      0.59    139954
+
+   micro avg       0.64      0.64      0.64    280000
+   macro avg       0.65      0.64      0.64    280000
+weighted avg       0.65      0.64      0.64    280000
+
+Area under ROC curve: 0.6912
+
+DNN Loss, Accuracy, Significance:
+[0.6357932798564434, 0.6411178578223501]
