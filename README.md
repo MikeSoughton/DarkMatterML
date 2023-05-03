@@ -37,19 +37,19 @@ conda create --name <env_name> --file requirements.txt
 Note that I would reccomend using the second option as the version of conda used may have problems using the yaml file.
 
 ## Code layout
+The code is split into five main directories. 
 
-Tensorflow etc..
+`susy-backgd` and `susy-othersig` contain code used to train, run and evaluate the logistic regression algorithm and the DNN with kinematic data, both monojet and dijet at parton-level and detector level.
 
-The paper finds ...
+`monojet` contains code used to used to train, run and evaluate the DNN and CNN with 2D monojet parton-level histogram data. 
 
-The code does ...
+`monojet-delphes-updated` contains code used to used to train, run and evaluate the DNN and CNN with 2D monojet detector-level histogram data. 
 
-Prerequisities ...
+`dijet-delphes-updated` contains code used to used to train, run and evaluate the DNN and CNN with 2D dijet detector-level histogram data. 
 
-The code is run ...
+The folder `hepML-master` is the package [hepML](https://github.com/aelwood/hepML) which is used to obtain the results in `susy-backgd` and `susy-othersig`. 
 
-References, funding and additional info ...
-
+There is also the folder `misc` which contains miscellaneous files
 
 
 ## Running the code
