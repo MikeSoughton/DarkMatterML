@@ -16,7 +16,7 @@ Events are generated through [`MadGraph`](https://arxiv.org/abs/1106.0522) along
 
 ## Dependencies
 
-The code is run in `pythonXXX`. The following packages are required:
+The code is run in `python2.7.17`. The following packages are required:
 
 ```
 
