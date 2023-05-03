@@ -47,7 +47,7 @@ This project was made possible through funding from the Royal Society-SERB Newto
 ## Running the code
 
 ### Logistic regression and DNN using kinematic features
-The logistic regression and DNN using kinematic features we ran from the command line so we do not provide instructions here, but if you are interested you can follow the instructions in `hepML-master` which utilise the package [hepML](https://github.com/aelwood/hepML).
+The logistic regression and DNN using kinematic features we ran from the command line so we do not provide instructions here, but if you are interested you can follow the instructions in `hepML-master` which utilise the package [hepML](https://github.com/aelwood/hepML). The results obtained as well as scripts to produce ROC plots are stored within `susy-backgd` and `susy-othersig`. 
 
 ### DNN and CNN using 2D histograms on monojet data
 When running the DNN or CNN using 2D histograms there are a couple of options. To run both the DNN and the CNN using histograms constructed from monojet parton-level data navigate to `monojet`. To train and evaluate the algorithm on the various signals against each other, run
