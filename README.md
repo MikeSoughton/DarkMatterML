@@ -2,8 +2,9 @@
 Repository for the code associated with the paper 'Using Machine Learning to disentangle LHC signatures of Dark Matter candidates', [arXiv:1910.06058](https://arxiv.org/abs/1910.06058) (2019). Authors: Charanjit K. Khosa, Veronica Sanz and Michael Soughton.
 
 ## Overview
+Looking for evidence of Dark Matter is of great importance to the state of High Energy Physics (HEP). Mono-X searches within particle colliders such as the Large Hadron Collider (LHC) are one area where potential Dark Matter particles may be discovered. Our paper explores some of these searches within the LHC and attempts to distinguish between different Dark Matter candidates using Machine Learning. The signals which we consider are  . Note that all the samples we consider are pure signal - our task is to characterise between diffeerent potential signals *after* their (theoretical) discovery has been made - although we do consider the how these signals look compared to the background in the appendix.
 
-Looking for evidence of Dark Matter is of great importance to the state of High Energy Physics (HEP). Mono-X searches within particle colliders such as the Large Hadron Collider (LHC) are one area where potential Dark Matter particles may be discovered. Our paper explores 
+We first examine using a logistic regression algorithm trained
 
 Events are generated through [`MadGraph`](https://arxiv.org/abs/1106.0522) along with [`Pythia`](https://arxiv.org/abs/0710.3820) and [`Delphes`](https://arxiv.org/abs/1307.6346) for showering and detector effects. 
 
