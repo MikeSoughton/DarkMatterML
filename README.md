@@ -10,7 +10,7 @@ We then look at engineering the feature inputs to see how that affect the perfor
 
 We train a DNN with these 2D histograms and evaluate it over new data, producing ROC curves. We do this for parton-level monojet signals as well as dijet detector-level monojet signals, whereupon we utilse a PCA to find the two most important features to construct histograms from. We then train a CNN with the histograms for the same monojet and dijet signals. We plot ROC curves for both methods, finding that the DNN using 2D histograms performs best.
 
-We finally consider how a statistical criterion $N_\text{SUSY}/N_\text{ALP}$ can be used to set a bound on the ALP cross-section, given some value for the SUSY cross-section, where $N_\text{SUSY}$ is the number of SUSY events correctly identified by the classifier and $N_\text{ALP}$ is the number of ALP events correctly identified by the classifier. We produce plots to demonstrate this.
+We finally consider how a statistical criterion $N_\text{SUSY}/N_\text{ALP}$ can be used to set a bound on the ALP cross-section, given some value for the SUSY cross-section, where $N_\text{SUSY}$ is the number of SUSY histograms correctly identified by the classifier and $N_\text{ALP}$ is the number of ALP histograms correctly identified by the classifier. We produce plots to demonstrate this.
 
 Events are generated through [`MadGraph`](https://arxiv.org/abs/1106.0522) along with [`Pythia`](https://arxiv.org/abs/0710.3820) and [`Delphes`](https://arxiv.org/abs/1307.6346) for showering and detector effects. 
 
