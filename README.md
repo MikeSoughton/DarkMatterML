@@ -49,7 +49,7 @@ The code is split into five main directories.
 
 The folder `hepML-master` is the package [hepML](https://github.com/aelwood/hepML) which is used to obtain the results in `susy-backgd` and `susy-othersig`. 
 
-There is also the folder `misc` which contains miscellaneous files
+There is also the folder `misc` which contains miscellaneous files such as our paper and figures as well as old code for reference purposes.
 
 
 ## Running the code
