@@ -98,18 +98,18 @@ A section can be referenced through [Section](#section)
 ## Citation
 Please cite the paper as follows in your publications if it helps your research:
 
-@article{Khosa:2019kxd,
-    author = "Khosa, Charanjit Kaur and Sanz, Veronica and Soughton, Michael",
-    title = "{Using machine learning to disentangle LHC signatures of Dark Matter candidates}",
-    eprint = "1910.06058",
-    archivePrefix = "arXiv",
-    primaryClass = "hep-ph",
-    doi = "10.21468/SciPostPhys.10.6.151",
-    journal = "SciPost Phys.",
-    volume = "10",
-    number = "6",
-    pages = "151",
-    year = "2021"
-}
+    @article{Khosa:2019kxd,
+        author = "Khosa, Charanjit Kaur and Sanz, Veronica and Soughton, Michael",
+        title = "{Using machine learning to disentangle LHC signatures of Dark Matter candidates}",
+        eprint = "1910.06058",
+        archivePrefix = "arXiv",
+        primaryClass = "hep-ph",
+        doi = "10.21468/SciPostPhys.10.6.151",
+        journal = "SciPost Phys.",
+        volume = "10",
+        number = "6",
+        pages = "151",
+        year = "2021"
+    }
 
 This project was made possible through funding from the Royal Society-SERB Newton International Fellowship under grant number NF171488 (to C.K.K.) and the Science Technology and Facilities Council (STFC) under grant numbers ST/P000819/1 and ST/P006760/1 (to V.S. and M.S. respectively).
