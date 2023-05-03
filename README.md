@@ -47,7 +47,7 @@ This project was made possible through funding from the Royal Society-SERB Newto
 ## Running the code
 The logistic regression and DNN using kinematic features we ran from the command line so we do not provide instructions here, but if you are interested you can follow the instructions in `hepML-master` which utilise the package [hepML](https://github.com/aelwood/hepML).
 
-When running the DNN or CNN using 2D histograms there are a couple of options. To run the DNN using histograms constructed from monojet data navigate to `monojet`. To train and evaluate the algorithm on the various signals against each other, run
+When running the DNN or CNN using 2D histograms there are a couple of options. To run both the DNN and the CNN using histograms constructed from monojet data navigate to `monojet`. To train and evaluate the algorithm on the various signals against each other, run
 ```
 python 2D_ROC_curves_sig-sig.py
 ```
@@ -55,6 +55,7 @@ to train and evaluate the algorithm on the various signals against each other. T
 ```
 python 2D_ROC_curves.py
 ```
+These scripts read in the data stored within the directory, train the DNN and CNN classifiers and save the ROC plots produced when using test data.
 
 **Bold**
 
