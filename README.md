@@ -2,7 +2,7 @@
 Repository for the code associated with the paper 'Using Machine Learning to disentangle LHC signatures of Dark Matter candidates', [arXiv:1910.06058](https://arxiv.org/abs/1910.06058) (2019). Authors: Charanjit K. Khosa, Veronica Sanz and Michael Soughton.
 
 ## Overview
-Looking for evidence of Dark Matter is of great importance to the state of High Energy Physics (HEP). Mono-X searches within particle colliders such as the Large Hadron Collider (LHC) are one area where potential Dark Matter particles may be discovered. Our paper explores some of these searches within the LHC and attempts to distinguish between different Dark Matter candidates using Machine Learning. The signals which we consider are  . Note that all the samples we consider are pure signal - our task is to characterise between diffeerent potential signals *after* their (theoretical) discovery has been made - although we do consider the how these signals look compared to the background in the appendix.
+Looking for evidence of Dark Matter is of great importance to the state of High Energy Physics (HEP). Mono-X searches within particle colliders such as the Large Hadron Collider (LHC) are one area where potential Dark Matter particles may be discovered. Our paper explores some of these searches within the LHC and attempts to distinguish between different Dark Matter candidates using Machine Learning. The signals which we consider are **AAAA** . Note that all the samples we consider are pure signal - our task is to characterise between diffeerent potential signals *after* their (theoretical) discovery has been made - although we do consider the how these signals look compared to the background in the appendix.
 
 We first examine using a logistic regression algorithm trained on raw kinematic data for each event. The algorithm is trained for a binary classification task two distinguish between any two signals. We then apply the trained algorithm to new testing data to evaluate its performance. We repeat this for each combination of signals. To determine how well the algorithm can distinguish between different signal types we plot ROC curves for each classification task. We next do the same but using a DNN over the same data instead, the code for which produces similar plots.
 
@@ -43,6 +43,11 @@ The code is run ...
 References, funding and additional info ...
 
 This project was made possible through funding from the Royal Society-SERB Newton International Fellowship (to C.K.K.) and the Science Technology and Facilities Council (STFC) under grant number (to V.S. and M.S.).
+
+## Running the code
+The logistic regression and DNN using kinematic features we ran from the command line so we do not provide instructions here, but if you are interested you can follow the instructions in `hepML-master` which utilise the package [hepML](https://github.com/aelwood/hepML).
+
+When running the DNN or CNN using 2D histograms there are a couple of options.
 
 **Bold**
 
