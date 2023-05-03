@@ -63,7 +63,16 @@ These scripts read in the data stored within the directory, train the DNN and CN
 One can also perform the same analysis using monojet detector-level data within `monojet-delphes-updated` by running the scripts with the same names, but that now use the detector-level data.
 
 ### DNN and CNN using 2D histograms on dijet data
+To run both the DNN and the CNN using histograms constructed from dijet detector-level data navigate to `dijet-delphes-updated`. The scripts here are structured in the same way as for the monojet case. To train and evaluate the algorithm on the various signals against each other, run
+```
+python 2D_ROC_curves_sig-sig.py
+```
+to train and evaluate the algorithm on the various signals against each other. To train and evaluate the algorithm on the various signals against the background run 
+```
+python 2D_ROC_curves.py
+```
 
+There are also scripts to run the PCA analysis used in the paper as well as a script for producing histogram plots for demonstration purposes, however they do not effect the running of the main code.
 
 **Bold**
 
