@@ -19,14 +19,22 @@ Events are generated through [`MadGraph`](https://arxiv.org/abs/1106.0522) along
 The code is run in `python2.7.17`. The following packages are required:
 
 ```
-
+numpy==1.16.5
+scipy==1.2.2
+tensorflow==2.0.0
+scikit-learn==0.20.3
+matplotlib==2.2.4
 ```
 
 These can be installed manually or via the conda yaml file using
-
 ```
 conda env create --name <env name> -f environment.yml
 ```
+or
+```
+conda create --name <env_name> --file requirements.txt
+```
+Note that I would reccomend using the second option as the version of conda used may have problems using the yaml file.
 
 ## Code layout
 
