@@ -82,18 +82,6 @@ python 2D_ROC_curves.py
 
 There are also scripts to run the PCA analysis used in the paper as well as a script for producing histogram plots for demonstration purposes, however they do not effect the running of the main code.
 
-**Bold**
-
-[Link](https://www.wikipedia.org)
-
-## Section
-
-A section can be referenced through [Section](#section)
-
-
-
-
-
 
 ## Citation
 Please cite the paper as follows in your publications if it helps your research:
